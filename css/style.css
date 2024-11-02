@@ -62,13 +62,6 @@ img {
   position: relative;
 }
 
-/*.card images {*/
-/*  aspect-ratio: 16 / 9;*/
-/*  display: block;*/
-/*  margin-left: auto;*/
-/*  margin-right: auto;*/
-/*}*/
-
 .card-content {
   display: inline;
   margin: auto;
