@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant Customer Feedback Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&family=Oswald:wght@200..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div class="card-container">
+      <div class="card-header">
+        <img src="images/annie-spratt-tKpA64QrccM-unsplash.jpg" alt="dining-table">
+        <h1 id="title" class="oswald-bold heading">Restaurant Review Survey</h1>
+      </div>
+    </div>
+
+    <p id="description" class="subheader">Thank you for participating in the Aventir
+      Restaurant Groupe, LLC customer survey</p>
+
+    <form action="#" id="survey-form">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-content">
+            <label for="name" id="name-label">Name:
+              <input type="text" id="name" placeholder="Name" required>
+            </label>
+            <label for="email" id="email-label">Email:
+              <input type="email" id="email" placeholder="Email" required>
+            </label>
+            <label for="number" id="number-label">Age:
+              <span><input type="number" id="number" min="1" max="110" placeholder="0"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+        <div class="card-content">
+          <label for="dropdown">Which design would you like?</label>
+          <select name="" id="dropdown">
+            <option disabled selected value>Choose One</option>
+            <option value="standard">Standard NYPL</option>
+            <option value="spiderman">Spiderman</option>
+          </select>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <p>Would you recommend visiting the library to a friend?</p>
+            <label>
+              <input type="radio" name="recommend" value="yes"> Yes
+            </label>
+            <label>
+              <input type="radio" name="recommend" value="no"> No
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <div class="card-newsletters">
+            <h3>Which newsletters would you like to receive?</h3>
+            <label>
+              <input type="checkbox" value="blog"> NYPL Blog
+            </label>
+            <label>
+              <input type="checkbox" value="events"> NYPL Events
+            </label>
+            <label>
+              <input type="checkbox" value="classes"> NYPL Classes
+            </label>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <label for="feedback">Comment box:
+              <textarea id="feedback"></textarea>
+            </label>
+            <button type="submit" id="submit" form="survey-form">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
