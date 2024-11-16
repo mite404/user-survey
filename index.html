@@ -18,20 +18,21 @@
 
     <div class="card-container">
       <div class="card-header">
-        <img src="images/annie-spratt-tKpA64QrccM-unsplash.jpg" alt="dining-table">
-        <h1 id="title" class="oswald-bold heading">Restaurant Review Survey</h1>
+        <img src="images/pasta.jpg" alt="dining-table">
+        <h1 id="title" class="oswald-bold heading">Pasta Sogni Review Survey</h1>
       </div>
     </div>
 
-    <div class="subheader">
-    <p id="description">Thank you for participating in the Aventir
-      Restaurant Groupe, LLC customer survey</p>
+    <div class="subheader oswald-bold">
+      <p id="description">Thank you for participating in our soft launch!<br>
+        The Aventir Restaurant Group, LLC would greatly appreciate your feedback.<br>
+        Please take 5 mintues to fill out our survey to receive your voucher.</p>
     </div>
 
     <form action="#" id="survey-form">
       <div class="card-container">
         <div class="card">
-          <div class="card-content">
+          <div class="card-content source-serif-regular">
             <label for="name" id="name-label">Name:
               <input type="text" id="name" placeholder="Name" required>
             </label>
@@ -45,19 +46,21 @@
         </div>
 
         <div class="card">
-        <div class="card-content">
-          <label for="dropdown">Which design would you like?</label>
-          <select name="" id="dropdown">
-            <option disabled selected value>Choose One</option>
-            <option value="standard">Standard NYPL</option>
-            <option value="spiderman">Spiderman</option>
-          </select>
-        </div>
+          <div class="card-content">
+            <h4>Which location did you visit?</h4>
+            <label for="dropdown">
+              <select name="restaurant-locations" id="dropdown">
+                <option disabled selected value>Choose One</option>
+                <option value="location-01">SoHo</option>
+                <option value="location-02">Cobble Hill</option>
+              </select>
+            </label>
+          </div>
         </div>
 
         <div class="card">
           <div class="card-content">
-            <p>Would you recommend visiting the library to a friend?</p>
+            <h4>Would you recommend us to a friend?</h4>
             <label>
               <input type="radio" name="recommend" value="yes"> Yes
             </label>
@@ -70,22 +73,22 @@
 
       <div class="card-container">
         <div class="card">
-          <div class="card-newsletters">
-            <h3>Which newsletters would you like to receive?</h3>
+          <div class="card-newsletters source-serif-regular">
+            <h4>Which newsletters would you like to receive?</h4>
             <label>
-              <input type="checkbox" value="blog"> NYPL Blog
+              <input type="checkbox" value="newsletter-main"> Subscribe to Main Newsletter
             </label>
             <label>
-              <input type="checkbox" value="events"> NYPL Events
+              <input type="checkbox" value="newsletter-menu"> Subscribe to Seasonal Menu
             </label>
             <label>
-              <input type="checkbox" value="classes"> NYPL Classes
+              <input type="checkbox" value="newsletter-cocktail"> Subscribe to Seasonal Cocktail Menu
             </label>
           </div>
         </div>
         <div class="card">
           <div class="card-content">
-            <label for="feedback">Comment box:
+            <label for="feedback">Drop us a comment!
               <textarea id="feedback"></textarea>
             </label>
             <button type="submit" id="submit" form="survey-form">Submit</button>

@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #484444;
+  background-color: #333131;
   font-family: "Source Serif 4", sans-serif;
   font-weight: 400;
   margin: 0;
@@ -56,7 +56,6 @@ img {
   margin-right: auto;
   background-color: #9a8b8b;
   border-radius: 8px;
-  /*padding: 20px;*/
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   position: relative;
@@ -109,4 +108,13 @@ img {
   padding: 6px;
   color: #e3e3e3;
   justify-content: center;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 5px;
+}
+
+p {
+  font-size: 1.2rem;
 }
